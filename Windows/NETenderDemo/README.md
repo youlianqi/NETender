@@ -40,6 +40,7 @@
 
 3. **使用生成项目脚本**
    ```cmd
+   #解压 NETender_Windows_SDK/netender-sdk/bin/libnode.zip
    sh build_for_windows.sh
    ```
 

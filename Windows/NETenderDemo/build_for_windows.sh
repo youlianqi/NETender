@@ -46,6 +46,11 @@ echo '🚀 -------------------------------------------------------'
 
 echo "build TenderExample start ..."
 
+
+#解压netender-sdk
+echo "解压libnode.zip"
+unzip -o NETender_Windows_SDK/netender-sdk/bin/libnode.zip -d NETender_Windows_SDK/netender-sdk/bin
+
 # shellcheck disable=SC2164
 #cd "cpp-lib/room-kit"
 echo "TenderExample clean cache ..."
